@@ -1,0 +1,29 @@
+{
+  "name": "github-invite-bot",
+  "private": true,
+  "description": "Enable members of your Discord server to self-invite to your GitHub Organization",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/with-heart/github-invite-bot.git"
+  },
+  "author": "with-heart <with.heart+git@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/with-heart/github-org-invite-bot/issues"
+  },
+  "homepage": "https://github.com/with-heart/github-org-invite-bot#readme",
+  "workspaces": {
+    "packages": [
+      "bot",
+      "site"
+    ]
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  }
+}
